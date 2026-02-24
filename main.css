@@ -95,3 +95,23 @@ margin-bottom: 15px;
   text-align: center;
   color: deeppink;
 }
+
+footer {
+  background-color: #c0cac9;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+footer a {
+  font-size: 160%;
+  text-decoration: none;
+  color: #546880;
+}
+
+footer a:hover {
+  color: palevioletred;
+  text-shadow: 0 0 5px white;
+}
