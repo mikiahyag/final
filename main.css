@@ -108,10 +108,35 @@ footer {
 footer a {
   font-size: 160%;
   text-decoration: none;
-  color: #546880;
+  color: palevioletred;
 }
 
 footer a:hover {
   color: palevioletred;
   text-shadow: 0 0 5px white;
 }
+
+.signature {
+  font-family: "Brush Script MT", cursive;
+  font-size: 40px;
+  color: #ff69b4;
+  text-align: right;
+  margin-top: 40px;
+}
+
+p {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: palevioletred;
+  text-align: center;
+}
+
+h2 {
+  color: palevioletred;
+  text-align: center;
+}
+
