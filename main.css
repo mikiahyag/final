@@ -67,14 +67,20 @@ margin-bottom: 15px;
 }
 
 .about-gallery {
-  width: 200px;
-  border-radius: 5px;
-margin-bottom: 15px;
+ display: block;
+ margin: auto;
+
+}
+
+.sports-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .sports-gallery img {
-  width: 150px;
-  border-radius: 10px;
+  max-width: 200px;
+  height: auto;
 }
 
 .sports-container {
@@ -111,10 +117,13 @@ footer a {
   color: palevioletred;
 }
 
+
 footer a:hover {
   color: palevioletred;
   text-shadow: 0 0 5px white;
 }
+
+
 
 .signature {
   font-family: "Brush Script MT", cursive;
@@ -125,9 +134,8 @@ footer a:hover {
 }
 
 p {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
+  font-size: 125%;
+  line-height: 1.4;
 }
 
 h1 {
