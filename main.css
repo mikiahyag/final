@@ -136,6 +136,8 @@ footer a:hover {
 p {
   font-size: 125%;
   line-height: 1.4;
+  margin-left: 1in;
+  margin-right: 1in;
 }
 
 h1 {
